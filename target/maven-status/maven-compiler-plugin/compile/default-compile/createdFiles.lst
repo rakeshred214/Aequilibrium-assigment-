@@ -1,0 +1,7 @@
+pages\BasePage.class
+pages\InventoryPage.class
+utils\ScreenshotListener.class
+pages\LoginPage.class
+utils\ConfigUtil.class
+utils\DriverFactory.class
+utils\Config.class

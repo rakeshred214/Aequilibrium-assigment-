@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-tests_LoginTest">
+              <span class="suite-name border-failed">tests.LoginTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-tests_LoginTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-tests_LoginTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-tests_LoginTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-tests_LoginTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-tests_LoginTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-tests_LoginTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-tests_LoginTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-tests_LoginTest" class="hide-methods failed suite-tests_LoginTest"> (hide)</a> <!-- hide-methods failed suite-tests_LoginTest -->
+                      <a href="#" panel-name="suite-tests_LoginTest" class="show-methods failed suite-tests_LoginTest"> (show)</a> <!-- show-methods failed suite-tests_LoginTest -->
+                    </span>
+                    <div class="method-list-content failed suite-tests_LoginTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tests_LoginTest" title="tests.LoginTest" hash-for-method="validate_empty_field_login_failure">validate_empty_field_login_failure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-tests_LoginTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-tests_LoginTest" class="hide-methods passed suite-tests_LoginTest"> (hide)</a> <!-- hide-methods passed suite-tests_LoginTest -->
+                      <a href="#" panel-name="suite-tests_LoginTest" class="show-methods passed suite-tests_LoginTest"> (show)</a> <!-- show-methods passed suite-tests_LoginTest -->
+                    </span>
+                    <div class="method-list-content passed suite-tests_LoginTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tests_LoginTest" title="tests.LoginTest" hash-for-method="validate_broken_images_for_problem_user">validate_broken_images_for_problem_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tests_LoginTest" title="tests.LoginTest" hash-for-method="validate_invalid_password_login_failure">validate_invalid_password_login_failure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tests_LoginTest" title="tests.LoginTest" hash-for-method="validate_locked_out_user_login_failure">validate_locked_out_user_login_failure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tests_LoginTest" title="tests.LoginTest" hash-for-method="validate_valid_user_login">validate_valid_user_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-tests_LoginTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-tests_LoginTest" class="panel tests_LoginTest">
+          <div class="suite-tests_LoginTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_empty_field_login_failure">
+                  </a> <!-- validate_empty_field_login_failure -->
+                  <span class="method-name">validate_empty_field_login_failure</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at pages.LoginPage.hasEmptyFieldsError(LoginPage.java:61)
+	at tests.LoginTest.validate_empty_field_login_failure(LoginTest.java:61)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tests_LoginTest-class-failed -->
+          <div class="suite-tests_LoginTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_broken_images_for_problem_user">
+                  </a> <!-- validate_broken_images_for_problem_user -->
+                  <span class="method-name">validate_broken_images_for_problem_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_invalid_password_login_failure">
+                  </a> <!-- validate_invalid_password_login_failure -->
+                  <span class="method-name">validate_invalid_password_login_failure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_locked_out_user_login_failure">
+                  </a> <!-- validate_locked_out_user_login_failure -->
+                  <span class="method-name">validate_locked_out_user_login_failure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_valid_user_login">
+                  </a> <!-- validate_valid_user_login -->
+                  <span class="method-name">validate_valid_user_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tests_LoginTest-class-passed -->
+        </div> <!-- panel tests_LoginTest -->
+        <div panel-name="test-xml-tests_LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;tests.LoginTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- tests.LoginTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-tests_LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for tests.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-tests_LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for tests.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-tests_LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for tests.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_tests_LoginTest');
+function tableData_tests_LoginTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validate_valid_user_login')
+data.setCell(0, 2, 'tests.LoginTest')
+data.setCell(0, 3, 1436);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validate_broken_images_for_problem_user')
+data.setCell(1, 2, 'tests.LoginTest')
+data.setCell(1, 3, 555);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validate_locked_out_user_login_failure')
+data.setCell(2, 2, 'tests.LoginTest')
+data.setCell(2, 3, 481);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validate_invalid_password_login_failure')
+data.setCell(3, 2, 'tests.LoginTest')
+data.setCell(3, 3, 456);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validate_empty_field_login_failure')
+data.setCell(4, 2, 'tests.LoginTest')
+data.setCell(4, 3, 112);
+window.suiteTableData['tests_LoginTest']= { tableData: data, tableDiv: 'times-div-tests_LoginTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-tests_LoginTest">
+              </div> <!-- times-div-tests_LoginTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-tests_LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for tests.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validate_empty_field_login_failure</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href="\testng-maven\target\surefire-reports\failure_screenshots\validate_empty_field_login_failure_07_12_2020_11_52_43.png"target="_blank"> screenshot</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-tests_LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-tests_LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validate_valid_user_login</span>
+                <span class="method-start">6894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_locked_out_user_login_failure</span>
+                <span class="method-start">8336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_invalid_password_login_failure</span>
+                <span class="method-start">8818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validate_empty_field_login_failure</span>
+                <span class="method-start">9275 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_broken_images_for_problem_user</span>
+                <span class="method-start">9818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10374 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

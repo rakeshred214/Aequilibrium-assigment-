@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="1" name="tests.LoginTest" time="3.477" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Eclipse OpenJ9"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\lib\se-service.jar;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\lib\rt.jar;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\lib\resources.jar;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\lib\jsse.jar;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\lib\charsets.jar;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\lib\jce.jar"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_265-b01"/>
+    <property name="user.name" value="Home"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\bin\compressedrefs;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\bin"/>
+    <property name="sun.boot.library.path" value="C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\bin\compressedrefs;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\bin"/>
+    <property name="classworlds.conf" value="C:\dev\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="jdk.extensions.version" value="8.0.265.0"/>
+    <property name="java.version" value="1.8.0_265"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="com.ibm.system.agent.path" value="C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\lib\endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\dev\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20200728_776 (JIT enabled, AOT enabled)
+OpenJ9   - 34cf4c075
+OMR      - 113e54219
+JCL      - c82ff0c20f based on jdk8u265-b01"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="openj9-0.21.0"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="C:\Users\Home"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="library.jansi.path" value="C:\dev\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="java.library.path" value="C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\bin\compressedrefs;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Home\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Home\AppData\Local\Android\Sdk\tools;C:\Users\Home\AppData\Local\Android\Sdk\platform-tools;C:\Users\Home\AppData\Local\Android\Sdk\build-tools;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\dev\apache-maven-3.6.3\bin;C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\bin;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;C:\Users\Home\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Go\bin;C:\Users\Home\.windows-build-tools\python27\;C:\Users\Home\AppData\Local\Microsoft\WindowsApps;C:\Users\Home\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Home\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Home\AppData\Roaming\npm;C:\Users\Home\.dotnet\tools;C:\Users\Home\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Home\go\bin;."/>
+    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="1.8.0_265-b01
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20200728_776 (JIT enabled, AOT enabled)
+OpenJ9   - 34cf4c075
+OMR      - 113e54219
+JCL      - c82ff0c20f based on jdk8u265-b01"/>
+    <property name="maven.home" value="C:\dev\apache-maven-3.6.3\bin\.."/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.class.path" value="C:\dev\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\Home\AppData\Local\Temp\"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Home\Desktop\Support\testng-maven"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="C:\Users\Home\.jdks\adopt-openj9-1.8.0_265\jre\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Home\Desktop\Support\testng-maven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase classname="tests.LoginTest" name="validate_valid_user_login" time="1.44"/>
+  <testcase classname="tests.LoginTest" name="validate_locked_out_user_login_failure" time="0.481"/>
+  <testcase classname="tests.LoginTest" name="validate_invalid_password_login_failure" time="0.457"/>
+  <testcase classname="tests.LoginTest" name="validate_empty_field_login_failure" time="0.543">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at pages.LoginPage.hasEmptyFieldsError(LoginPage.java:61)
+	at tests.LoginTest.validate_empty_field_login_failure(LoginTest.java:61)
+</failure>
+  </testcase>
+  <testcase classname="tests.LoginTest" name="validate_broken_images_for_problem_user" time="0.556"/>
+</testsuite>

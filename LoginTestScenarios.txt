@@ -1,0 +1,11 @@
+No	Scenarios
+1	Verify that user can login with valid username and password then brought to inventory page
+2	Verify that user gets error as "Username and password do not match any user in this service" when tried to login with invalid username or password
+3	Verify that user gets error as "Username is requried" when tried to login with blank Username
+4	Verify that user gets error as "Password is requried" when tried to login with blank Password
+5	Verify that user gets error as "Sorry, this user has been locked out" when tried to login with locked out user credentials
+6	Verify that user sees improper inventory page when tried to login with problem user credentials
+7	Verify that user can login with valid username and password then brought to inventory page when there is a network latency
+8	Verify that user is able to see username(Text Field), Password (Text input Field with masked) and Submit (Button).
+9	Verify Swaglabs logo on login page
+10	Verify Swag Labs title on login page
