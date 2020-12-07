@@ -19,6 +19,9 @@ Install the below prerequisites
 
 ## Running the tests
 
+Clone the Repo with this command 
+```git clone https://github.com/rakeshred214/Aequilibrium-assigment-.git testng-maven```
+
 To run the tests use any of the two ways mentioned below.
 ```Add USERNAMEs and PASSWORD in src/main/resources/config.properties```
 - Running using maven
